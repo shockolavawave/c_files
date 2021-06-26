@@ -12,7 +12,7 @@ int main()
 	printf("Enter the number of rows and columns in matrix_1: ");
 	a = scanf("%d%d", &m1, &n1);
 	
-	if(!a || m1<=0 || n1<=0)
+	if(a!=1 || m1<=0 || n1<=0)
 	{
 		printf("Invalid input!\nTry re-running\n");
 		exit(0);
@@ -22,7 +22,7 @@ int main()
 	printf("Enter the number of rows and columns in matrix_2: ");
 	a = scanf("%d%d", &m2, &n2);
 	
-	if(!a || m2<=0 || n2<=0)
+	if(a!=1 || m2<=0 || n2<=0)
 	{
 		printf("Invalid input!\nTry re-running\n");
 		exit(0);
@@ -66,7 +66,7 @@ int main()
 			
 			fflush(stdin);
 			
-			if(!a)
+			if(a!=1)
 			{
 				printf("Invalid input.\nTry re-running.\n");
 				exit(0);
@@ -105,7 +105,7 @@ int main()
 			
 			fflush(stdin);
 			
-			if(!a)
+			if(a!=1)
 			{
 				printf("Invalid input.\nTry re-running.\n");
 				exit(0);
