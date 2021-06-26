@@ -12,7 +12,7 @@ int main()
 	printf("Enter the number of rows:    ");
 	a = scanf("%d", &m);
 	
-	if(!a || m<=0)
+	if(a!=1 || m<=0)
 	{
 		printf("Invalid input.\nTry re-running.\n");
 		exit(0);
@@ -22,7 +22,7 @@ int main()
 	printf("Enter the number of columns: ");
 	a = scanf("%d", &n);
 	
-	if(!a || n<=0)
+	if(a!=1 || n<=0)
 	{
 		printf("Invalid input.\nTry re-running.\n");
 		exit(0);
@@ -57,7 +57,7 @@ int main()
 			
 			fflush(stdin);
 			
-			if(!a)
+			if(a!=1)
 			{
 				printf("Invalid input.\nTry re-running.\n");
 				exit(0);
